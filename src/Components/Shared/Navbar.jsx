@@ -76,7 +76,7 @@ function Navbar() {
         </div>
 
         <button className="bg-[#5CAF90] text-white px-10 py-3 rounded-sm font-bold">
-          All Categories
+          Location ?
         </button>
       </section>
       <hr className="border-[#e4e1e1]" />
