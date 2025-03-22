@@ -69,9 +69,13 @@ function Navbar() {
 
         <div className="flex">
           {menus.map((menu) => (
-            <p key={menu.id} className="mx-5 font-semibold text-[#4B5974]">
+            <a
+              href="#"
+              key={menu.id}
+              className="mx-5 font-semibold text-[#4B5974]"
+            >
               {menu.name}
-            </p>
+            </a>
           ))}
         </div>
 
