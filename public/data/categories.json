@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Fruits",
+    "items": 320
+  },
+  {
+    "id": 2,
+    "name": "Bakery",
+    "items": 65
+  },
+  {
+    "id": 3,
+    "name": "Vegitables",
+    "items": 548
+  },
+  {
+    "id": 4,
+    "name": "Dairy & Milk",
+    "items": 48
+  },
+  {
+    "id": 5,
+    "name": "Snaks & Spices",
+    "items": 59
+  },
+  {
+    "id": 6,
+    "name": "Juice & Drinks",
+    "items": 845
+  },
+  {
+    "id": 7,
+    "name": "Sea Food"
+  }
+]
