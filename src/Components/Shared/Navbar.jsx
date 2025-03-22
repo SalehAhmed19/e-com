@@ -11,9 +11,9 @@ function Navbar() {
     { id: 6, name: "Contact", link: "/" },
   ];
   return (
-    <nav>
+    <nav className="m-w">
       {/* Section 1 */}
-      <section className="p-2 bg-[#f8f8f8] flex justify-between text-sm text-[#878787] px-20">
+      <section className="p-2 bg-[#f8f8f8] flex justify-between text-sm text-[#878787]">
         <div>+91 98 004 0506</div>
 
         <div>
@@ -34,7 +34,7 @@ function Navbar() {
       </section>
 
       {/* Section 2 */}
-      <section className="px-20 py-7 flex justify-between items-center">
+      <section className="py-7 flex justify-between items-center">
         <div>
           <img className="w-[150px]" src={logo} alt="" />
         </div>
@@ -62,7 +62,7 @@ function Navbar() {
 
       {/* Section 3 */}
       <hr className="border-[#e4e1e1]" />
-      <section className="px-20 py-2 flex justify-between items-center">
+      <section className="py-2 flex justify-between items-center">
         <button className="bg-[#5CAF90] text-white px-10 py-3 rounded-sm font-bold">
           All Categories
         </button>

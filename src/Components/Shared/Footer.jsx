@@ -30,9 +30,9 @@ function Footer() {
   ];
 
   return (
-    <footer>
+    <footer className="m-w">
       <hr className="border-[#e4e1e1]" />
-      <div className="grid grid-cols-5 gap-5 px-20 pt-20">
+      <div className="grid grid-cols-5 gap-5 pt-20">
         <div>
           <img className="w-[150px]" src={logo} alt="" />
           <p className="text-[#878787] font-semibold my-5">
