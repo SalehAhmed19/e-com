@@ -2,35 +2,42 @@
   {
     "id": 1,
     "name": "Fruits",
-    "items": 320
+    "items": 320,
+    "icon": "./src/assets/icons/fi-fruit.png"
   },
   {
     "id": 2,
     "name": "Bakery",
-    "items": 65
+    "items": 65,
+    "icon": "./src/assets/icons/fi-cake.png"
   },
   {
     "id": 3,
     "name": "Vegitables",
-    "items": 548
+    "items": 548,
+    "icon": "./src/assets/icons/fi-vegetable.png"
   },
   {
     "id": 4,
     "name": "Dairy & Milk",
-    "items": 48
+    "items": 48,
+    "icon": "./src/assets/icons/fi-dairy.png"
   },
   {
     "id": 5,
     "name": "Snaks & Spices",
-    "items": 59
+    "items": 59,
+    "icon": "./src/assets/icons/fi-snacks.png"
   },
   {
     "id": 6,
     "name": "Juice & Drinks",
-    "items": 845
+    "items": 845,
+    "icon": "./src/assets/icons/fi-juice.png"
   },
   {
     "id": 7,
-    "name": "Sea Food"
+    "name": "Sea Food",
+    "icon": "./src/assets/icons/fi-seafood.png"
   }
 ]
