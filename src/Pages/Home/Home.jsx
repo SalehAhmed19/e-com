@@ -6,6 +6,7 @@ import Hero from "../../Components/Isolated/Hero";
 import Banner from "../../Components/Isolated/Banner";
 import NewArrivals from "../../Components/Isolated/NewArrivals";
 import Offers from "../../Components/Isolated/Offers";
+import Features from "../../Components/Isolated/Features";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Banner />
       <NewArrivals />
       <Offers />
+      <Features />
     </div>
   );
 }
