@@ -18,7 +18,7 @@ function Offers() {
     },
   ];
   return (
-    <div className="grid grid-cols-2 gap-5 my-10">
+    <div className="grid grid-cols-2 gap-5 my-20">
       {offers.map((offer) => (
         <div key={offer.id} className="relative flex items-center">
           <img className="w-full rounded-sm" src={offer.img} alt="" />

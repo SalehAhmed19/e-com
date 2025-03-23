@@ -13,23 +13,25 @@ function Navbar() {
   return (
     <nav>
       {/* Section 1 */}
-      <section className="p-2 bg-[#f8f8f8] flex justify-between text-sm text-[#878787]">
-        <div>+91 98 004 0506</div>
+      <section className="bg-[#f8f8f8]">
+        <div className="p-2 flex justify-between text-sm text-[#878787] m-w">
+          <div>+91 98 004 0506</div>
 
-        <div>
-          <p>World Fastest Online Shopping Destination</p>
-        </div>
+          <div>
+            <p>World Fastest Online Shopping Destination</p>
+          </div>
 
-        <div>
-          <a className="mx-2" href="#">
-            Help?
-          </a>
-          <a className="mx-2" href="#">
-            Track?
-          </a>
-          <a className="mx-2" href="#">
-            Order?
-          </a>
+          <div>
+            <a className="mx-2" href="#">
+              Help?
+            </a>
+            <a className="mx-2" href="#">
+              Track?
+            </a>
+            <a className="mx-2" href="#">
+              Order?
+            </a>
+          </div>
         </div>
       </section>
 

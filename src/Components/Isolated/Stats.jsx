@@ -1,0 +1,50 @@
+import React, { useEffect, useState } from "react";
+import img from "../../assets/img/4.jpg";
+import Items from "./Items";
+
+const Stats = () => {
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    fetch("./public/data/products.json")
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
+  }, []);
+
+  return (
+    <div className="flex my-20">
+      <div className="mr-5">
+        <img className="w-[300px]" src={img} alt="" />
+      </div>
+      <div className="grid grid-cols-3 gap-5 w-full">
+        <div>
+          <h3 className="text-3xl font-bold">
+            Trending <span className="text-[#5CAF90]">Items</span>
+          </h3>
+          {products.slice(0, 3).map((product) => (
+            <Items key={product.id} item={product} />
+          ))}
+        </div>
+
+        <div>
+          <h3 className="text-3xl font-bold">
+            Top <span className="text-[#5CAF90]">Rated</span>
+          </h3>
+          {products.slice(4, 7).map((product) => (
+            <Items key={product.id} item={product} />
+          ))}
+        </div>
+
+        <div>
+          <h3 className="text-3xl font-bold">
+            Top <span className="text-[#5CAF90]">Selling</span>
+          </h3>
+          {products.slice(3, 6).map((product) => (
+            <Items key={product.id} item={product} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Stats;

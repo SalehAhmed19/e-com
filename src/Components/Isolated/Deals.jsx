@@ -60,7 +60,7 @@ function Deals() {
         <Timer />
       </div>
 
-      <div className="grid grid-cols-5 gap-6 my-10">
+      <div className="grid grid-cols-5 gap-6 my-20">
         {products.map((product) => (
           <ProductCard product={product} />
         ))}

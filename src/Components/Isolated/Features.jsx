@@ -32,7 +32,7 @@ function Features() {
     },
   ];
   return (
-    <div className="grid grid-cols-4 gap-10 my-10">
+    <div className="grid grid-cols-4 gap-10 my-20">
       {features.map((feature) => (
         <div
           key={feature.id}

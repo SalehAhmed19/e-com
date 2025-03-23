@@ -7,6 +7,7 @@ import Banner from "../../Components/Isolated/Banner";
 import NewArrivals from "../../Components/Isolated/NewArrivals";
 import Offers from "../../Components/Isolated/Offers";
 import Features from "../../Components/Isolated/Features";
+import Stats from "../../Components/Isolated/Stats";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <NewArrivals />
       <Offers />
       <Features />
+      <Stats />
     </div>
   );
 }
