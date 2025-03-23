@@ -5,6 +5,7 @@ import Deals from "../../Components/Isolated/Deals";
 import Hero from "../../Components/Isolated/Hero";
 import Banner from "../../Components/Isolated/Banner";
 import NewArrivals from "../../Components/Isolated/NewArrivals";
+import Offers from "../../Components/Isolated/Offers";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Deals />
       <Banner />
       <NewArrivals />
+      <Offers />
     </div>
   );
 }
