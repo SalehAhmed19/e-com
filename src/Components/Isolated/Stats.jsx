@@ -12,8 +12,17 @@ const Stats = () => {
 
   return (
     <div className="flex my-20">
-      <div className="mr-5">
-        <img className="w-[300px]" src={img} alt="" />
+      <div className="mr-5 relative">
+        <img className="w-[350px]" src={img} alt="" />
+        <div className="absolute top-0 px-7 py-10">
+          <h2 className="font-bold text-2xl mb-5 text-[#494949]">
+            Our Top Most <br />
+            Products Check It <br /> Now
+          </h2>
+          <button className="bg-[#5CAF90] text-white rounded-sm px-5 py-1 cursor-pointer">
+            Shop Now
+          </button>
+        </div>
       </div>
       <div className="grid grid-cols-3 gap-5 w-full">
         <div>
