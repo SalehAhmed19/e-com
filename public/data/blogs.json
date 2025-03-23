@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "./src/assets/img/blogs/1.jpg",
+    "title": "Marketing Guide: 5 Steps to Success to way.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sunt provident alias possimus dolorem cupiditate sed adipisci repellat numquam ducimus ullam ipsam, culpa expedita! Iste alias, iusto, eveniet est accusamus sequi soluta consequatur ullam aliquam nesciunt reiciendis, impedit itaque quia error quod nam aliquid necessitatibus quae dolores numquam. Quod fuga exercitationem voluptatibus odio et minus officiis nobis veritatis, itaque, delectus magnam consequuntur, recusandae inventore eveniet architecto ducimus tempora qui nulla quasi? Quidem impedit tenetur, unde cumque nesciunt iste id, exercitationem atque doloremque vero possimus inventore repellat omnis temporibus perspiciatis accusamus quia. Qui pariatur modi harum expedita mollitia officiis eaque unde!",
+    "date": "20 January 2025",
+    "category": "Organic"
+  },
+  {
+    "id": 2,
+    "img": "./src/assets/img/blogs/2.jpg",
+    "title": "Marketing Guide: 5 Steps to Success to way.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sunt provident alias possimus dolorem cupiditate sed adipisci repellat numquam ducimus ullam ipsam, culpa expedita! Iste alias, iusto, eveniet est accusamus sequi soluta consequatur ullam aliquam nesciunt reiciendis, impedit itaque quia error quod nam aliquid necessitatibus quae dolores numquam. Quod fuga exercitationem voluptatibus odio et minus officiis nobis veritatis, itaque, delectus magnam consequuntur, recusandae inventore eveniet architecto ducimus tempora qui nulla quasi? Quidem impedit tenetur, unde cumque nesciunt iste id, exercitationem atque doloremque vero possimus inventore repellat omnis temporibus perspiciatis accusamus quia. Qui pariatur modi harum expedita mollitia officiis eaque unde!",
+    "date": "20 January 2025",
+    "category": "Fruits"
+  },
+  {
+    "id": 3,
+    "img": "./src/assets/img/blogs/3.jpg",
+    "title": "Marketing Guide: 5 Steps to Success to way.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sunt provident alias possimus dolorem cupiditate sed adipisci repellat numquam ducimus ullam ipsam, culpa expedita! Iste alias, iusto, eveniet est accusamus sequi soluta consequatur ullam aliquam nesciunt reiciendis, impedit itaque quia error quod nam aliquid necessitatibus quae dolores numquam. Quod fuga exercitationem voluptatibus odio et minus officiis nobis veritatis, itaque, delectus magnam consequuntur, recusandae inventore eveniet architecto ducimus tempora qui nulla quasi? Quidem impedit tenetur, unde cumque nesciunt iste id, exercitationem atque doloremque vero possimus inventore repellat omnis temporibus perspiciatis accusamus quia. Qui pariatur modi harum expedita mollitia officiis eaque unde!",
+    "date": "20 January 2025",
+    "category": "Vegetables"
+  },
+  {
+    "id": 4,
+    "img": "./src/assets/img/blogs/4.jpg",
+    "title": "Marketing Guide: 5 Steps to Success to way.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sunt provident alias possimus dolorem cupiditate sed adipisci repellat numquam ducimus ullam ipsam, culpa expedita! Iste alias, iusto, eveniet est accusamus sequi soluta consequatur ullam aliquam nesciunt reiciendis, impedit itaque quia error quod nam aliquid necessitatibus quae dolores numquam. Quod fuga exercitationem voluptatibus odio et minus officiis nobis veritatis, itaque, delectus magnam consequuntur, recusandae inventore eveniet architecto ducimus tempora qui nulla quasi? Quidem impedit tenetur, unde cumque nesciunt iste id, exercitationem atque doloremque vero possimus inventore repellat omnis temporibus perspiciatis accusamus quia. Qui pariatur modi harum expedita mollitia officiis eaque unde!",
+    "date": "20 January 2025",
+    "category": "Fast Food"
+  },
+  {
+    "id": 5,
+    "img": "./src/assets/img/blogs/5.jpg",
+    "title": "Marketing Guide: 5 Steps to Success to way.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sunt provident alias possimus dolorem cupiditate sed adipisci repellat numquam ducimus ullam ipsam, culpa expedita! Iste alias, iusto, eveniet est accusamus sequi soluta consequatur ullam aliquam nesciunt reiciendis, impedit itaque quia error quod nam aliquid necessitatibus quae dolores numquam. Quod fuga exercitationem voluptatibus odio et minus officiis nobis veritatis, itaque, delectus magnam consequuntur, recusandae inventore eveniet architecto ducimus tempora qui nulla quasi? Quidem impedit tenetur, unde cumque nesciunt iste id, exercitationem atque doloremque vero possimus inventore repellat omnis temporibus perspiciatis accusamus quia. Qui pariatur modi harum expedita mollitia officiis eaque unde!",
+    "date": "20 January 2025",
+    "category": "Fruits"
+  }
+]

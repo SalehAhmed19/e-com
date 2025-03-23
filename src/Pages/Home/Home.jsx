@@ -8,6 +8,7 @@ import NewArrivals from "../../Components/Isolated/NewArrivals";
 import Offers from "../../Components/Isolated/Offers";
 import Features from "../../Components/Isolated/Features";
 import Stats from "../../Components/Isolated/Stats";
+import Blogs from "../../Components/Isolated/Blogs";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Offers />
       <Features />
       <Stats />
+      <Blogs />
     </div>
   );
 }
