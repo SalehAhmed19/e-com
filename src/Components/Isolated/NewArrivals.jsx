@@ -13,7 +13,7 @@ function NewArrivals() {
     <div>
       <div className="flex justify-between items-center my-20">
         <div>
-          <h2 className="font-bold text-2xl">
+          <h2 className="font-bold text-3xl">
             New <span className="text-[#5CAF90]">Arrivals</span>
           </h2>
           <p className="text-[#878787] my-3">

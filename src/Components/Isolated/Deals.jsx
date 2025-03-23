@@ -50,7 +50,7 @@ function Deals() {
     <div>
       <div className="flex justify-between items-center">
         <div>
-          <h2 className="font-bold text-2xl">
+          <h2 className="font-bold text-3xl">
             Day of the <span className="text-[#5CAF90]">Deals</span>
           </h2>
           <p className="text-[#878787] my-3">
