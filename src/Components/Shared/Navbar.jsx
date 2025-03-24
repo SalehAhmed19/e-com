@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../../assets/img/logo.png";
+import icon_1 from "../../assets/icons/fi-login.png";
+import icon_2 from "../../assets/icons/fi-wishlist.png";
+import icon_3 from "../../assets/icons/fi-cart.png";
 
 function Navbar() {
   const menus = [
@@ -49,15 +52,27 @@ function Navbar() {
           />
         </div>
 
-        <div>
-          <a className="mx-2" href="#">
-            Login
+        <div className="flex">
+          <a className="mx-2 flex" href="#">
+            <img className="w-10" src={icon_1} alt="" />
+            <div>
+              <p className="text-sm">Account</p>
+              <p className="font-bold">LOGIN</p>
+            </div>
           </a>
-          <a className="mx-2" href="#">
-            Wishlist
+          <a className="mx-2 flex" href="#">
+            <img className="w-10" src={icon_2} alt="" />
+            <div>
+              <p className="text-sm">Wishlist</p>
+              <p className="font-bold">3-ITEMS</p>
+            </div>
           </a>
-          <a className="mx-2" href="#">
-            Cart
+          <a className="mx-2 flex" href="#">
+            <img className="w-10" src={icon_3} alt="" />
+            <div>
+              <p className="text-sm">Cart</p>
+              <p className="font-bold">LOGIN</p>
+            </div>
           </a>
         </div>
       </section>
