@@ -6,6 +6,7 @@ import product_4 from "../../assets/img/products/2_1.jpg";
 import product_5 from "../../assets/img/products/1_1.jpg";
 import Timer from "./Timer";
 import ProductCard from "./ProductCard";
+import { Fade } from "react-awesome-reveal";
 
 function Deals() {
   const products = [
@@ -48,23 +49,27 @@ function Deals() {
 
   return (
     <div>
-      <div className="flex justify-between items-center">
-        <div>
-          <h2 className="font-bold text-3xl">
-            Day of the <span className="text-[#5CAF90]">Deals</span>
-          </h2>
-          <p className="text-[#878787] my-3">
-            Don't wait. The time will never be just right.
-          </p>
+      <Fade direction="up">
+        <div className="flex justify-between items-center">
+          <div>
+            <h2 className="font-bold text-3xl">
+              Day of the <span className="text-[#5CAF90]">Deals</span>
+            </h2>
+            <p className="text-[#878787] my-3">
+              Don't wait. The time will never be just right.
+            </p>
+          </div>
+          <Timer />
         </div>
-        <Timer />
-      </div>
+      </Fade>
 
-      <div className="grid grid-cols-5 gap-6 my-20">
-        {products.map((product) => (
-          <ProductCard product={product} />
-        ))}
-      </div>
+      <Fade direction="up">
+        <div className="grid grid-cols-5 gap-6 my-20">
+          {products.map((product) => (
+            <ProductCard product={product} />
+          ))}
+        </div>
+      </Fade>
     </div>
   );
 }

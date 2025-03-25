@@ -3,15 +3,16 @@ import logo from "../../assets/img/logo.png";
 import icon_1 from "../../assets/icons/fi-login.png";
 import icon_2 from "../../assets/icons/fi-wishlist.png";
 import icon_3 from "../../assets/icons/fi-cart.png";
+import { Link } from "react-router";
 
 function Navbar() {
   const menus = [
     { id: 1, name: "Home", link: "/" },
-    { id: 2, name: "Categories", link: "/" },
-    { id: 3, name: "Products", link: "/" },
-    { id: 4, name: "Offers", link: "/" },
-    { id: 5, name: "Blogs", link: "/" },
-    { id: 6, name: "Contact", link: "/" },
+    { id: 2, name: "Categories", link: "/categories" },
+    { id: 3, name: "Products", link: "/products" },
+    { id: 4, name: "Offers", link: "/offers" },
+    { id: 5, name: "Blogs", link: "/blogs" },
+    { id: 6, name: "Contact", link: "/contact" },
   ];
   return (
     <nav>
@@ -86,13 +87,13 @@ function Navbar() {
 
         <div className="flex">
           {menus.map((menu) => (
-            <a
-              href="#"
+            <Link
+              to={menu.link}
               key={menu.id}
               className="mx-5 font-semibold text-[#4B5974]"
             >
               {menu.name}
-            </a>
+            </Link>
           ))}
         </div>
 

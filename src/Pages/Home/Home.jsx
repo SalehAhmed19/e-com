@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import "../../Style/Home.css";
 import Categories from "../../Components/Isolated/Categories";
 import Deals from "../../Components/Isolated/Deals";
@@ -14,12 +15,18 @@ function Home() {
   return (
     <div className="m-w">
       <Hero />
-      <Categories />
+      <Fade>
+        <Categories />
+      </Fade>
       <Deals />
-      <Banner />
+      <Fade direction="up">
+        <Banner />
+      </Fade>
       <NewArrivals />
       <Offers />
-      <Features />
+      <Fade direction="up">
+        <Features />
+      </Fade>
       <Stats />
       <Blogs />
     </div>
