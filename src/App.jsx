@@ -8,6 +8,7 @@ import Categories from "./Pages/Categories/Categories";
 import Products from "./Pages/Products/Products";
 import Offers from "./Pages/Offers/Offers";
 import Blogs from "./Pages/Blogs/Blogs";
+import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/offers" element={<Offers />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contacts />} />
       </Routes>
       <Fade direction="up">
         <Footer />
